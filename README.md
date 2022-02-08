@@ -5,6 +5,8 @@ Ce projet_5 consiste à crée un micro Linux qu'on pourra par la suite mettre da
 
 Pour ce faire, on a suivi des tutoriels et ainsi télécharger virtuelBox sur notre machine personnelle ensuite télécharger la machine virtuelle pour Linux (UBUNTU) et grace au terminal de ce dernier, on exécute les commandes suivantes:
 
+sudo apt-get install qemu-system-arm #telecharger qemu
+
 sudo apt-get install libncurses5-dev bc
 
 sudo apt install build-essential #telecharger buildroot
@@ -24,3 +26,5 @@ make menuconfig # Panneau de configuration
 make #Pour Générer l'image
 
 Vous pouvez télécharger l'image de MicroLinux ainsi crée sur le drive suivant: https://drive.google.com/file/d/17e6TqwNUmZGBkknBM2SkWO_1hIUnjBrL/view?usp=sharing.
+
+Consernant la communication, on n'a pas pu réussir à faire la communiquer entre le Bluetooth de notre smartphone et l'application BLE.
